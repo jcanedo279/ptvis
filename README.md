@@ -1,10 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br />GO REACT!!!
 
-## Available Scripts
+
+
+
+
+
+## Before running
+
+### `pip install -r requirements.txt --no-index --find-links file:///tmp/packages`
+
+Run the above command in order to install the requirements needed to run the full stack project. Most notably: Flask, dotenv and Axios are necessary.
+
+### `python3 -m venv venv`
+
+Run the above command from within the ptvis/ project directory in order to create a Virtual Environment via the default Python venv (requires Python>3.2)
+
+### `source venv/bin/activate`
+
+Run the above command from within the ptvis/ project directory in order to start venv
+
+
+
+
+
+## Available yarn Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start-api`
+
+Runs the python api in /api/api.py.<br />
+Open [http://127.0.0.1:5000](http://127.0.0.1:5000) to view it in the browser
+
+Please note that by proxying, you can access the api under [http://localhost:3000/api/api.py](http://localhost:3000/api/api.py) to view it in the browser.<br />
+You will also see any errors referenced to in the console.
+
+### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,7 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+<!-- ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -35,7 +66,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it. -->
 
 ## Learn More
 
